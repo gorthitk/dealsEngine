@@ -1,0 +1,49 @@
+// Deals Search Banner 1.2.0.RELEASE log opened at 2017-07-26 16:00:19
+ findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-05 --los 3
+ findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-10 --los 2
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-20 --los 1
+// [failed] findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-45 --los 1
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-20 --los 1
+exit
+// Deals Search Banner 1.2.0.RELEASE log closed at 2017-07-26 16:11:53
+// Deals Search Banner 1.2.0.RELEASE log opened at 2017-07-26 16:12:08
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-20 --los 1
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-67 --los 1
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-20 --los 1ab
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-10 --los 2
+ findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-05 --los 3
+help
+exit
+// Deals Search Banner 1.2.0.RELEASE log closed at 2017-07-26 16:13:27
+// Deals Search Banner 1.2.0.RELEASE log opened at 2017-07-26 16:41:17
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-05 --los 3
+ findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-10 --los 2
+ findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-20 --los 1
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar" 2016-03-05 3
+exit
+// Deals Search Banner 1.2.0.RELEASE log closed at 2017-07-26 16:42:15
+// Deals Search Banner 1.2.0.RELEASE log opened at 2017-07-26 16:42:27
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar" 2016-03-05 3
+BestHotelDeal ./deals.csv "Hotel Foobar" 2016-03-10 2
+BestHotelDeal ./deals.csv "Hotel Foobar" 2016-03-20 1
+help
+reload --filePath /Users/jet/Desktop/deals.csv 
+// [failed] reload --filePath /Users/jet/Desktop/deals
+reload --filePath /Users/jet/Desktop/test.jrs
+// [failed] reload --filePath /Users/jet/Desktop/deals
+clear
+clear
+// Deals Search Banner 1.2.0.RELEASE log opened at 2017-07-26 16:47:22
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-05 --los 3
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-10 --los 2
+findDeal --filePath /Users/jet/Desktop/deals.csv --hotelName "Hotel Foobar" --checkInDate 2016-03-20 --los 1
+BestHotelDeal ./deals.csv "Hotel Foobar" 2016-03-05 3
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar" 2016-03-05 3
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar" 2016-03-10 2
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar" 2016-03-20 1
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar2" 2016-03-20 1
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar2" 2016-03-10 2
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar2" 2016-03-10 2
+reload --filePath /Users/jet/Desktop/deals.csv
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar2" 2016-03-10 2
+BestHotelDeal /Users/jet/Desktop/deals.csv "Hotel Foobar2" 2016-03-05 3
